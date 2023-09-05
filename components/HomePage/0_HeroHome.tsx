@@ -187,7 +187,7 @@ export function HeroHome() {
                         // with button element type as Link, can use Link scroll = {false}
                         // see HeaderSimple for explanation
                         scroll={false}
-                        href="/Resumes/pat.pdf"
+                        href="/Resumes/Resume_Patrick_Finnerty.pdf"
                         size="xl"
                         radius="xl"
                         variant="gradient"
