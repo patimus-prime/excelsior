@@ -40,17 +40,54 @@ export function AppCardsSection() {
             ></BadgeCard>
           </Grid.Col>
 
+          <Grid.Col md={6} lg={3}>
+            <BadgeCard
+              image="/AppCardsPics/1B2V.png"
+              title={"Master's Thesis"}
+              date="April – September 2021"
+              description={
+                'Analyzing structural features of hemoprotein \
+            binding pockets to identify relevant features for heme cofactor binding.'
+              }
+              projectDetails={'https://patimus-prime.github.io/heme-binding/'}
+              projectRepo={'https://github.com/patimus-prime/heme-binding'}
+              badges={[
+                { emoji: '🐍', label: 'Python' },
+                { emoji: '🏴‍☠️', label: 'R' },
+                { emoji: '🙀', label: 'Github' },
+                { emoji: '', label: 'UCSF Chimera' },
+              ]}
+            ></BadgeCard>
+          </Grid.Col>
 
           <Grid.Col md={6} lg={3}>
-            {/* <BadgeCard
-                            image=""
-                            title=''
-                            date=""
-                            description=""
-                            projectDetails=""
-                            projectRepo=""
-                            badges={[]}
-                        /> */}
+            <BadgeCard
+              image="/AppCardsPics/csid.jpg"
+              title={'Preliminary Research, genetic disease'}
+              date="February 2023"
+              description={
+                'Leverage genetic database, protein language model and present literature review in grant proposal.'
+              }
+              projectDetails={
+                'https://csidgrantproposal.netlify.app/'
+              }
+              projectRepo={
+                'https://csidgrantproposal.netlify.app/'
+              }
+              badges={[
+                { emoji: '🐍', label: 'Python, Biopython' },
+                // { emoji: '🐼', label: 'Pandas' },
+                // { emoji: '🪐', label: 'Google Colab/Jupyter' },
+                { emoji: '📈', label: 'Plotly, Quarto/Jupyter' },
+                { emoji: '☁️', label: 'Github CI/CD, Netlify' },
+                { emoji: '🤖', label: 'ESM1b Language Model, AlphaFold' },
+
+              ]}
+            ></BadgeCard>
+          </Grid.Col>
+
+          {/* <Grid.Col md={6} lg={3}>
+
             <BadgeCard
               image={"/AppCardsPics/abstracts.jpg"}
               title={'Abstract Summarization and Recommendation'}
@@ -72,7 +109,7 @@ export function AppCardsSection() {
                 { emoji: '🪐', label: 'Google Colab/Jupyter' },
               ]}
             ></BadgeCard>
-          </Grid.Col>
+          </Grid.Col> */}
 
           <Grid.Col md={6} lg={3}>
             <BadgeCard
@@ -92,34 +129,10 @@ export function AppCardsSection() {
               }
               badges={[
                 { emoji: '🐍', label: 'Python' },
-                { emoji: '📈', label: 'statmodels/scipy/matplotlib/seaborn' },
-                { emoji: '🐼', label: 'Pandas' },
+                { emoji: '📈', label: 'plotly/statmodels/scipy/matplotlib/seaborn' },
+                // { emoji: '🐼', label: 'Pandas' },
                 { emoji: '🪐', label: 'Google Colab/Jupyter' },
-              ]}
-            ></BadgeCard>
-          </Grid.Col>
-
-          <Grid.Col md={6} lg={3}>
-            <BadgeCard
-              image="/AppCardsPics/csid.jpg"
-              title={'Preliminary work on rare genetic disease'}
-              date="February 2023"
-              description={
-                'Looking through the gnomAD genetic database, it is suggested \
-              the population prevalence for CSID may be greater than expected, \
-              at least for heterozygote deleterious mutations which may carry symptoms. \
-              Homozygote count is 0 and may be an artifact of the gnomAD guidelines.'
-              }
-              projectDetails={
-                'https://github.com/patimus-prime/ML_notebooks/blob/master/CSID_prelim.ipynb'
-              }
-              projectRepo={
-                'https://github.com/patimus-prime/ML_notebooks/blob/master/CSID_prelim.ipynb'
-              }
-              badges={[
-                { emoji: '🐍', label: 'Python' },
-                { emoji: '🐼', label: 'Pandas' },
-                { emoji: '🪐', label: 'Google Colab/Jupyter' },
+                { emoji: '🔥', label: 'Streamlit (~Tableau)' }
               ]}
             ></BadgeCard>
           </Grid.Col>
@@ -190,25 +203,7 @@ export function AppCardsSection() {
             ></BadgeCard>
           </Grid.Col>
 
-          <Grid.Col md={6} lg={3}>
-            <BadgeCard
-              image="/AppCardsPics/1B2V.png"
-              title={"Master's Thesis"}
-              date="April – September 2021"
-              description={
-                'Analyzing structural features of hemoprotein \
-            binding pockets to identify relevant features for heme cofactor binding.'
-              }
-              projectDetails={'https://patimus-prime.github.io/heme-binding/'}
-              projectRepo={'https://github.com/patimus-prime/heme-binding'}
-              badges={[
-                { emoji: '🐍', label: 'Python' },
-                { emoji: '🏴‍☠️', label: 'R' },
-                { emoji: '🙀', label: 'Github' },
-                { emoji: '', label: 'UCSF Chimera' },
-              ]}
-            ></BadgeCard>
-          </Grid.Col>
+
           {/* 
           <Grid.Col md={6} lg={3}>
             <BadgeCard

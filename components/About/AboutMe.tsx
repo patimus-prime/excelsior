@@ -79,10 +79,10 @@ export default function Pat() {
                 <div className={classes.inner}>
                     <div className={classes.content}>
                         <Title className={classes.title}>Pat</Title>
-                        <Text color="dimmed" mt="md">
+                        {/* <Text color="dimmed" mt="md">
                             I am a buffoon masquerading as a functional adult; and I like to think I do a pretty
                             good impression. In addition to that, my skills include:
-                        </Text>
+                        </Text> */}
 
                         {/* 1st List; separate to have different icons */}
                         <List
@@ -97,14 +97,20 @@ export default function Pat() {
                             }
                         >
                             <List.Item>
+                                <b>Software Engineering & Bioinformatics</b> – My MS was in Bioinformatics. I've used
+                                a number of libraries and languages to achieve results: Python, JavaScript/TypeScript, R,
+                                for visualization, Quarto, Rmarkdown, libraries like Plotly, etc.
+                            </List.Item>
+                            <List.Item>
                                 <b>Pharma R&D, Wetlab</b> – Before my Master's, I worked for 2 years in antibody formulation
                                 development. Having the science background has been invaluable in translating
                                 chemistry between empirical papers and the computational methods
                             </List.Item>
                             <List.Item>
-                                <b>Data Visualization</b> – Most recently Streamlit, easily the most awesome
-                                visualization tool. And mulitple libraries in Python and R, PowerBI, Excel
+                                <b>Outside work</b> – I like cooking, gaming, skateboarding and recently I've been playing with an Arduino
                             </List.Item>
+
+                            {/*                             
                             <List.Item>
                                 <b>Machine Learning</b> – Scikit, XGBoost, PyTorch, the models in DeepChem and
                                 HuggingFace, and my best friend at work, ChatGPT
@@ -112,13 +118,8 @@ export default function Pat() {
                             <List.Item>
                                 <b>Molecular Modeling</b> – I've worked with a few different molecular vizulation or
                                 simulation tools, e.g. Chimera, RDKit, DeepChem, Vina, AlphaFold, DiffDock
-                            </List.Item>
+                            // </List.Item> */}
 
-                            <List.Item>
-                                <b>Bringing it all together</b> – I have enjoyed having several projects where one
-                                had to consider and integrate the science, the coding/modeling, and the
-                                significance, the translation of the results to real-world applications.
-                            </List.Item>
                         </List>
 
                         {/* 2nd LIST */}

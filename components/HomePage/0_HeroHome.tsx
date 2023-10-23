@@ -108,7 +108,7 @@ export function HeroHome() {
                     {/* Welcome */}
                     {/* My dog deserves the{' '} */}
                     <Text component="span" inherit className={classes.highlight}>
-                        Welcome!
+                        Welcome! ¡Bienvenidos!
                     </Text>
                 </Title>
 
@@ -119,19 +119,21 @@ export function HeroHome() {
                         {/* <Space h="xl" /> */}
                         {/* <Space h="xl" /> */}
 
-                        Welcome! ¡Bienvenidos! I'm a lot of things: a formulation and computational chemist,
-                        chemical and software engineer, but mostly I brag about my dog.
+                        {/* Welcome! ¡Bienvenidos! */}
+                        {/* I'm a lot of things: a formulation and computational chemist, chemical and software engineer, but mostly I brag about my dog. */}
                         <Space h="xl" />
 
-                        I worked for 2 years in pharma R&D, went to get my Master's, started researching
-                        a rare genetic disease, and now, here we are (2023). My portfolio and several tools are below. And
+                        {/* I worked for 2 years in pharma R&D, went to get my Master's, started researching */}
+                        {/* a rare genetic disease, and now, here we are (2023).  */}
+
+                        My portfolio and several tools are below. And
                         pictures of my dog.
                     </Text>
                 </Container>
 
 
                 <div className={classes.controls}>
-                    <Button
+                    {/* <Button
                         component={Link}
                         scroll={false}
                         href="/#Iframes"
@@ -142,7 +144,7 @@ export function HeroHome() {
                     // leftIcon={<IconBrandLinkedin size={20} />}
                     >
                         📊Cool apps!
-                    </Button>
+                    </Button> */}
                     <Button
                         component={Link}
                         href="https://www.linkedin.com/in/patrick-finnerty"
@@ -181,7 +183,7 @@ export function HeroHome() {
                     >
                         😍 DOG!
                     </Button>
-
+                    {/* 
                     <Button
                         component={Link}
                         // with button element type as Link, can use Link scroll = {false}
@@ -196,7 +198,7 @@ export function HeroHome() {
                         download={true}
                     >
                         CV/Resume
-                    </Button>
+                    </Button> */}
                     {/* Link component accomodates for Next.js routing;
           Using href within button worked, but relatively slow navigation.
           From: https://mantine.dev/core/button/#usage-with-nextjs */}
