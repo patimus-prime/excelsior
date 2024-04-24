@@ -16,6 +16,20 @@ import { Notifications } from '@mantine/notifications';
 // import { AppShell } from '@mantine/core';
 import { HeaderSimple } from '../components/Navigation/HeaderSimple';
 import { linksData } from '../components/LinksData';
+
+import { Analytics } from '@vercel/analytics/react';
+
+const firebaseConfig = {
+  apiKey: "AIzaSyClIjPd2uxXB4JyaUeWF50334qptbdet18",
+  authDomain: "mamasite-d2990.firebaseapp.com",
+  projectId: "mamasite-d2990",
+  storageBucket: "mamasite-d2990.appspot.com",
+  messagingSenderId: "1086744597679",
+  appId: "1:1086744597679:web:c81ac802eff0555c37305a",
+  measurementId: "G-C6868FT135"
+};
+
+
 export default function App(props: AppProps & { colorScheme: ColorScheme }) {
   const { Component, pageProps } = props;
   const [colorScheme, setColorScheme] = useState<ColorScheme>(props.colorScheme);
@@ -64,6 +78,7 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
             {/* next line is default; i... yeah apparently you just need to add the param lolololol */}
             {/* theme={{ colorScheme }} withGlobalStyles withNormalizeCSS> */}
             {/* <AppShellSimple> */}
+            <Analytics />
             <AppShell
               header={
                 <HeaderSimple links={linksData} />

@@ -57,7 +57,7 @@ export function IframeThesis() {
                         {/* <Link href="/Tools" passHref> */}
                         <Button
                             component={Link}
-                            href="/About"
+                            href="https://patimus-prime.github.io/heme-binding/index.html"
                             size="md"
                             radius="sm"
                             variant="gradient"

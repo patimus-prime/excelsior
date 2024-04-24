@@ -9,6 +9,7 @@ import { IframeYeast } from '../components/dependencies/IframeYeast';
 import { IframeThesis } from '../components/dependencies/IframeThesis';
 import { IframeRDKit } from '../components/dependencies/IframeRDKit';
 import { IframeMolview } from '../components/dependencies/IframeMolview';
+import { IframeCsid } from '../components/dependencies/IframeCsid';
 import AboutPage from './About';
 import React from 'react'
 import ReactPlayer from 'react-player'
@@ -32,6 +33,7 @@ export default function HomePage() {
           {/* <Title>Top-notch apps!</Title> */}
         </Text>
         {/* <IframeRDKit /> */}
+        <IframeCsid />
         <IframeYeast />
         {/* <IframeMolview /> */}
         <IframeThesis />
