@@ -7,17 +7,20 @@ import Link from 'next/link';
 const useStyles = createStyles((theme) => ({
     wrapper: {
         position: 'relative',
-        paddingTop: 100,
-        paddingBottom: 250,
+        // paddingTop: 100,
+        // paddingBottom: 250,
+        height: '70vh',
         // current syntax for Nextjs; second one for create-react-app or others, Nextjs Image is better
-        backgroundImage: 'url(/sherb_sleepy.jpg)', // `url(${sherb_sleepy})`, // foreign syntax to me tbh. from : https://www.freecodecamp.org/news/react-background-image-tutorial-how-to-set-backgroundimage-with-inline-css-style/
+        backgroundImage: 'url(/compchem.jpg)', // `url(${sherb_sleepy})`, // foreign syntax to me tbh. from : https://www.freecodecamp.org/news/react-background-image-tutorial-how-to-set-backgroundimage-with-inline-css-style/
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-
-        '@media (max-width: 520px)': {
-            paddingTop: 80,
-            paddingBottom: 50,
-        },
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        // '@media (max-width: 520px)': {
+        //     paddingTop: 80,
+        //     paddingBottom: 50,
+        // },
     },
 
     inner: {
@@ -100,7 +103,9 @@ export function HeroHome() {
 
     return (
         <div className={classes.wrapper} id='Home'>
-            <Overlay color="#000" opacity={0.65} zIndex={1} />
+            {/* next line makes the background/pic above more gray, lower opacity value for brighter */}
+            <Overlay color="#000" opacity={0.40} zIndex={1} />
+
             {/* <Grid> */}
             {/* <Grid.Col md={8}> */}
             <div className={classes.inner}>

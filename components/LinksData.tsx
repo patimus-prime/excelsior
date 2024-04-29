@@ -2,7 +2,7 @@
 
 export const linksData = [
     { label: 'Home', link: '/#Home' },
-    { label: 'It\'s Lit!🔥', link: '/#Iframes' },
+    { label: 'Research & Pubs', link: '/#Iframes' },
     { label: 'Portfolio', link: '/#Portfolio' },
     { label: 'Thesis🎓', link: 'https://patimus-prime.github.io/heme-binding/' },
     { label: 'About', link: '/#About' },
